@@ -42,7 +42,7 @@ def reconstruct_path(prev,vertex):
 source='C'
 cost,prev=DJ(G,source)
 for vertex in G.keys():
-    print(f"From {source} to {vertex},path is {reconstruct_path(prev,vertex)} with cost {cost[vertex]}")
+    print(f"From {source} to {vertex},path is {reconstruct_path(prev,vertex)} with cost {cost[vertex]}.")
 print(cost)
 print(prev)
 
